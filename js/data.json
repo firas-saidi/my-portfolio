@@ -24,14 +24,14 @@
     "portfolio" : [
         {
             "id":1,
-            "image": "img/portfolio1.jpg",
+            "image": "https://asset.cloudinary.com/levelupsp/f081a8e430719cf6baccab945828775f",
             "name" : "My login app",
             "det":"Login app with modern design use mongodb",
             "link" : "https://firas-saidi.github.io/my-login-app/"
         },
         {
             "id":2,
-            "image": "img/portfolio2.jpg",
+            "image": "my-portfolio/img/portfolio2.jpg",
             "name" : "My weather app",
             "det":"Weather app use api ",
             "link" : "https://firas-saidi.github.io/my-weather-app/"
