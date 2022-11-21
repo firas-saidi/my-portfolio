@@ -31,7 +31,7 @@ function About() {
         <a href = "https://linkedin.com/in/firas-saidi-fs"  target="_blank" rel="noopener noreferrer" className="btn">Contact Me in Linkdin</a>
     </div>
     <div className="about-img">
-        <img src="/img/me.jpg" alt=""/>
+        <img src="img/me.jpg" alt=""/>
     </div>
 </section>
 
