@@ -428,3 +428,10 @@ form textarea{
 .my-btn :hover{
 	color: var(--bg-color);
 }
+.load{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 265px;
+
+}
