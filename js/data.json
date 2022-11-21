@@ -1,0 +1,102 @@
+{
+    "works" : [
+        {
+            "id" : 1,
+            "icon_name": "icon fa fa-chain fa-2x",
+            "title": "Web Ux",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quos omnis voluptas ea ipsam! Voluptas."
+        },
+        {
+            "id" : 2,
+            "icon_name": "icon fa fa-bolt fa-2x",
+            "title": "Mobile Ux",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quos omnis voluptas ea ipsam! Voluptas."
+        },
+        {
+            "id" : 3,
+            "icon_name": "icon fa fa-tachometer fa-2x",
+            "title": "Backend",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quos omnis voluptas ea ipsam! Voluptas."
+        }
+     
+    ],
+
+    "portfolio" : [
+        {
+            "id":1,
+            "image": "img/portfolio1.jpg",
+            "name" : "My login app",
+            "det":"Login app with modern design use mongodb",
+            "link" : "https://firas-saidi.github.io/my-login-app/"
+        },
+        {
+            "id":2,
+            "image": "img/portfolio2.jpg",
+            "name" : "My weather app",
+            "det":"Weather app use api ",
+            "link" : "https://firas-saidi.github.io/my-weather-app/"
+
+        },
+        {
+            "id":3,
+            "image": "img/portfolio3.jpg",
+            "name" : " Login app",
+            "det":"Login app  use mongodb",
+            "link" : "https://firas-saidi.github.io/log-app/"
+
+        },
+        {
+            "id":4,
+            "image": "img/portfolio4.jpg",
+            "name" : "Cart footer-header ",
+            "det":"Footer and Header with cart logic ",
+            "link" : "https://firas-saidi.github.io/logicweb/"
+
+        },
+        {
+            "id":5,
+            "image": "img/portfolio5.jpg",
+            "name" : "SHOP web site",
+            "det":"E-commerce (Shop)",
+            "link" : "https://firas-saidi.github.io/web-site/"
+
+        },
+        {
+            "id":6,
+            "image": "img/portfolio6.jpg",
+            "name" : "Travel app",
+            "det":"Web site for travel app ",
+            "link" : "https://firas-saidi.github.io/travel-app/"
+
+        },
+        {
+            "id":7,
+            "image": "img/portfolio7.jpg",
+            "name" : "crud-course",
+            "det":"App for crud Course ",
+            "link" : "https://firas-saidi.github.io/crud-course/"
+
+
+        },
+        {
+            "id":8,
+            "image": "img/portfolio8.jpg",
+            "name" : "crud-app",
+            "det":"My crud app ",
+            "link" : "https://firas-saidi.github.io/crud-app/"
+
+        }
+    ] ,
+  
+    "profile" : [
+        {
+            "id": 1,
+            "name" : "Firas Saidi" ,
+            "birthday" :"27/08/1997",
+            "address" : "Tunis,Bizerte",
+            "phone":  "54 723 008 / 50 091 452",
+            "email" : "saidi.firas@outlook.com",
+            "website":"github.com/firas-saidi"
+        }
+    ]
+}
