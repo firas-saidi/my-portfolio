@@ -24,6 +24,7 @@ function Portfolio() {
 				</div>
 				<h3 className='text-white'>{one.det}</h3>
 				</a>
+				
 			</div>
 		)
 	})
@@ -36,7 +37,7 @@ function Portfolio() {
 
 		<div className="portfolio-content">
 			{all}	
-
+		
 		</div>
 	</section>
 

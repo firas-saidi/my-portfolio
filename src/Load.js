@@ -1,10 +1,11 @@
 import React from 'react'
-import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
+import SyncLoader from "react-spinners/SyncLoader";
 
 function Load (props) {
   return (
     <div className='load'>
-        <ClimbingBoxLoader
+      
+        <SyncLoader
     color={"#eb4a4a"}
     size={20}
 

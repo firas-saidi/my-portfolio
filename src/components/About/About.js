@@ -3,9 +3,7 @@ import React from 'react'
 function About() {
   return (
     <section className="about" id="about">
-    <div className="about-img">
-        <img src="img/me.jpg" alt=""/>
-    </div>
+    
 
     <div className="about-text">
         <h2>About Me</h2>
@@ -31,6 +29,9 @@ function About() {
 
         </div>
         <a href = "https://linkedin.com/in/firas-saidi-fs"  target="_blank" rel="noopener noreferrer" className="btn">Contact Me in Linkdin</a>
+    </div>
+    <div className="about-img">
+        <img src="/img/me.jpg" alt=""/>
     </div>
 </section>
 
