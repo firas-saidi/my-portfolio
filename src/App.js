@@ -12,7 +12,7 @@ import Mycv from './components/Mycv/Mycv';
 
 function App() {
   return (
-    <Router>
+    <Router basename={'/my-portfolio'}>
       <Header/>
       <Routes>
       <Route  exact path='/' element={<All/>}/>
