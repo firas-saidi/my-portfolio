@@ -4,8 +4,9 @@ import SyncLoader from "react-spinners/SyncLoader";
 function Load (props) {
   return (
     <div className='load'>
-      
-        <SyncLoader
+      <img src = "img/logo.jpg" alt=""/>     
+     
+         <SyncLoader
     color={"#eb4a4a"}
     size={20}
 
