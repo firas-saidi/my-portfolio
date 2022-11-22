@@ -299,6 +299,7 @@ header.sticky{
 	font-size: 18px;
 	margin-right: 10px;
 	transition: all .40s ease;
+	text-decoration: none;
 }
 .contact-icons a:hover{
 	transform: scale(1.01) translateY(-5px);
