@@ -23,8 +23,9 @@ function Portfolio() {
 					</div>
 				</div>
 				<h3 className='text-white'>{one.det}</h3>
+				<button className='btn'>Open App ! </button>
 				</a>
-				
+			
 			</div>
 		)
 	})

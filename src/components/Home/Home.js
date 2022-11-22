@@ -10,7 +10,7 @@ function Home() {
 			<h3>Front-End Developer "React js" 
 			
 			</h3>
-			<a className="btn" href = "https://drive.google.com/file/d/1ZPD66mzyNNE_E_A1jVkc7y-RTPMfQ94C/view?usp=sharing" target="_blank" rel="noopener noreferrer">  <img className='my-btn'  src ={img} alt =''/>Hire Me </a>
+			<a className="btn" href = "https://drive.google.com/file/d/1K8erFjN0n0uy7TOz7rpuMKpqRCzzpUUk/view?usp=share_link" target="_blank" rel="noopener noreferrer">  <img className='my-btn'  src ={img} alt =''/>Hire Me </a>
 		</div>
 	</section>
   )

@@ -17,13 +17,13 @@ function Contact() {
 				<a href = "https://linkedin.com/in/firas-saidi-fs"  target="_blank" rel="noopener noreferrer"><i className='bx bxl-linkedin' ></i></a>
 				<a href = "https://linkedin.com/in/firas-saidi-fs"  target="_blank" rel="noopener noreferrer"><i className='bx bxl-facebook' ></i></a>
 				<a href = "https://github.com/firas-saidi"  target="_blank" rel="noopener noreferrer"><i className='bx bxl-github' ></i></a>
-				<a href = "https://drive.google.com/file/d/1ZPD66mzyNNE_E_A1jVkc7y-RTPMfQ94C/view?usp=sharing"  target="_blank" rel="noopener noreferrer"><i className='bx bxl-instagram' ></i></a>
+				<a href = "https://drive.google.com/file/d/1K8erFjN0n0uy7TOz7rpuMKpqRCzzpUUk/view?usp=share_link"  target="_blank" rel="noopener noreferrer"><i className='bx bxl-instagram' ></i></a>
 				<a href = "https://firas-saidi.github.io/my-portfolio"  target="_blank" rel="noopener noreferrer"><i className='bx bxl-dribbble' ></i></a>
 			</div>
 		</div>
 
 		<div className="contact-form">
-			<form onClick={()=> window.location.href = "https://google.com/"}>
+			<form >
 				<input type="" placeholder="Enter Your Name" required/>
 				<input type="email" placeholder="Enter Your Email" required/>
 				<input type="" placeholder="Enter Your Subject"/>
