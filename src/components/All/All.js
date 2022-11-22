@@ -17,8 +17,8 @@ function All() {
 <>
 
 <Home/>
-<About/>
 <Services/>
+<About/>
 <Portfolio/>
 <Work/>
 <Profile/>
