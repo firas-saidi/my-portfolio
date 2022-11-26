@@ -47,10 +47,10 @@
         },
         {
             "id":4,
-            "image": "img/portfolio4.jpg",
-            "name" : "Cart footer-header ",
-            "det":"Header with cart logic ",
-            "link" : "https://firas-saidi.github.io/logicweb/"
+            "image": "img/portfolio4.png",
+            "name" : "Customize Notes App ",
+            "det":" Notes App  with customize color ",
+            "link" : "https://firas-saidi.github.io/my-note-app"
 
         },
         {
