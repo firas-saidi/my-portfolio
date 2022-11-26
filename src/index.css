@@ -229,6 +229,9 @@ header.sticky{
 	align-items: center;
 	justify-content: space-between;
 	margin-bottom: 1rem;
+	max-width: 800px;
+	max-height: 600px;
+
 }
 .row h3{
 	font-size: 25px;
