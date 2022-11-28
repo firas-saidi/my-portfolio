@@ -3,7 +3,7 @@ import 'animate.css';
 
 function About() {
   return (
-    <section className="about bsection" id="about">
+    <section className="about " id="about">
         <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__bounce" : ""}>
