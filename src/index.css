@@ -474,9 +474,9 @@ form textarea{
 		  transform: translateY(-20px);
 	  }
   }
-.asection{ 
+/* .asection{ 
 	animation: asection 3s cubic-bezier(0.5, 1, 0.89, 1) 0s 1 normal both;
-}
+} */
 
 /* 
 @keyframes asection {
