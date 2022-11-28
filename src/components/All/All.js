@@ -13,9 +13,7 @@ import Contact from './../Contact/Contact'
 
 function All() {
   return (
-  
-<>
-
+  <>
 <Home/>
 <Services/>
 <About/>
@@ -24,8 +22,6 @@ function All() {
 <Profile/>
 <Contact/>
 </>
-   
-
   );
 }
 

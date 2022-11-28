@@ -1,12 +1,17 @@
-import React from 'react'
+import TrackVisibility from 'react-on-screen';
+import 'animate.css';
 
 function About() {
   return (
-    <section className="about" id="about">
+    <section className="about bsection" id="about">
+        <TrackVisibility>
+              {({ isVisible }) =>
+                <div className={isVisible ? "animate__animated animate__bounce" : ""}>
+                 <img className='Himg' src="img/me.jpg" alt=""/>
+                </div>}
+            </TrackVisibility>
     
-    <div className="about-img">
-        <img src="img/me.jpg" alt=""/>
-    </div>
+  
     <div className="about-text">
         <h2>About Me</h2>
         <h4>Hi, Im Here To Help Your Next Project</h4>

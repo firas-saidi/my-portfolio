@@ -44,7 +44,7 @@ function Profile() {
 
 
   return (
-    <div className="profile_skills" id="profil">
+    <div className="profile_skills asection" id="profil">
             <div className="container">
             <div className="profile">
       <h2 className="profile-title"><span>My </span>Profile</h2>
