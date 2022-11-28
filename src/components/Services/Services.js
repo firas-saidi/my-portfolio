@@ -1,10 +1,9 @@
-import 'animate.css';
 
 function Services() {
   return (
 	
 	
-    <section className="services asection " id="services">
+    <section className="services  " id="services">
 		<div className="main-text">
 			<h2>My Services</h2>
 			<h4>Better Design, Better Expericences</h4>

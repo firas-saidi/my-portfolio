@@ -27,7 +27,7 @@ const worksList=works.map(workItem=> {
   )
 })
   return (
-    <div className='r bsection'>
+    <div className='r '>
           <WorkSection id="work">
     <div className="container">
         <TorkTitle><Span>My</Span> Work</TorkTitle>

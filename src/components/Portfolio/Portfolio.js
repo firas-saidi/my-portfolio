@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import 'animate.css';
 
 import axios from 'axios'
 function Portfolio() {
@@ -32,7 +31,7 @@ function Portfolio() {
 		)
 	})
   return (
-    <section className="portfolio asection" id="portfolio">
+    <section className="portfolio " id="portfolio">
 		<div className="main-text">
 			<h2>My Portfolio</h2>
 			<h4>Some Of My Application with React js </h4>
