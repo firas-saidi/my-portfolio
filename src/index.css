@@ -413,7 +413,13 @@ form textarea{
 	}
 	.services{
 		padding-top: 200px;
+	
 	}
+	.services-content{
+		align-items: center;
+	text-align: center;
+	}
+
 	.contact{
 		grid-template-columns: 1fr;
 	}
