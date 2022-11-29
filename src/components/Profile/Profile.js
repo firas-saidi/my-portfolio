@@ -57,7 +57,7 @@ function Profile() {
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos praesentium blanditiis esse cupiditate, omnis similique.
                     </p>
                     <div className="bar">
-                        <span className="title">Microsoft office</span>
+                        <span className="title">JavaScript </span>
                         <span className="perc">100%</span>
                         <div className="parent">
                             <span className="sp1"></span>
@@ -65,7 +65,7 @@ function Profile() {
                     </div>
                     
                     <div className="bar">
-                        <span className="title">Adobe</span>
+                        <span className="title">HTML</span>
                         <span className="perc">100%</span>
                         <div className="parent">
                             <span className="sp1"></span>
@@ -73,7 +73,7 @@ function Profile() {
                     </div>
                     
                     <div className="bar">
-                        <span className="title">Python</span>
+                        <span className="title">Angular</span>
                         <span className="perc">70%</span>
                         <div className="parent">
                             <span className="sp3"></span>
