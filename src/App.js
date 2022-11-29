@@ -6,8 +6,6 @@ import Footer from './components/Footer/Footer';
 import Mycv from './components/Mycv/Mycv';
 import Load from "./Load";
 
-
-
 function App() {
   const [loading , setLoading]=useState(false);
 
@@ -31,7 +29,6 @@ function App() {
       <Route path='/mycv' element={<Mycv/>}/>
       </Routes>
       <Footer/>
- 
     </Router>
   )
   }
