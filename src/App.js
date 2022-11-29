@@ -16,7 +16,7 @@ function App() {
     setTimeout(()=>{
       setLoading(false)
 
-    },3000)
+    },2000)
 
   },[])
   return (
@@ -27,7 +27,7 @@ function App() {
     <Router basename={'/my-portfolio'}>
       <Header/>
       <Routes>
-      <Route  exact path='/' element={<All/>}/>
+      <Route path='/' element={<All/>}/>
       <Route path='/mycv' element={<Mycv/>}/>
       </Routes>
       <Footer/>
