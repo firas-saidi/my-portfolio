@@ -7,7 +7,7 @@ function Contact() {
 		<div className="contact-text">
 			<h2>Contact Me</h2>
 			<h4>Let's Work Together</h4>
-			<p>Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry</p>
+			<p>This website developed with react js and use Hooks , axios , Styled Component ... </p>
 			<div className="contact-list">
 				<li><a href="#/">Firas Saidi</a></li>
 				<li><a href="#/">saidi.firas@outlook.com</a></li>
