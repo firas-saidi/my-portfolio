@@ -5,7 +5,7 @@ function Mycv() {
     
   return (
     <HomeSection>
-            <div className="container">
+            <div className="container ">
                 <Information>
                     <Hometitle>Firas Saidi</Hometitle>
                     <HomeInfo>Creative Director</HomeInfo>

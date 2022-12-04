@@ -383,6 +383,13 @@ form textarea{
 	section{
 		padding: 130px 3% 60px;
 	}
+	.Himg{
+		width: 360px;
+		margin-left: auto;
+		margin-right: auto;
+		
+	}
+	
 }
 
 @media (max-width: 970px){
@@ -413,6 +420,12 @@ form textarea{
 		text-align: center;
 		
 	}
+	.about-text h2 {
+		text-align: center;
+	}
+	.about-text .btn {
+		margin-left: 3%;
+	}
 	.services{
 		padding-top: 200px;
 	
@@ -425,6 +438,13 @@ form textarea{
 	.contact{
 		grid-template-columns: 1fr;
 	}
+	.Himg{
+		width: 360px;
+		margin-left: auto;
+		margin-right: auto;
+		
+	}
+
 }
 
 @media (max-width: 830px){
@@ -482,36 +502,9 @@ form textarea{
 		  transform: translateY(-20px);
 	  }
   }
-/* .asection{ 
-	animation: asection 3s cubic-bezier(0.5, 1, 0.89, 1) 0s 1 normal both;
-} */
 
-/* 
-@keyframes asection {
-	0% {
-		opacity: 0;
-		transform: translateX(250px);
-	}
-
-	100% {
-		opacity: 1;
-		transform: translateX(0);
-	}
-}
-
-.bsection{ 
-animation: bsection 3s cubic-bezier(0.5, 1, 0.89, 1) 0s 1 normal both;
-
-}
-
-@keyframes bsection {
-	0% {
-		opacity: 0;
-		transform: translateX(-250px);
-	}
-
-	100% {
-		opacity: 1;
-		transform: translateX(0);
-	}
-} */
+  ::selection{
+	color: white;
+	background-color: #eb4a4a;
+	
+  }

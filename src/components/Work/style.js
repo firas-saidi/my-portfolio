@@ -10,6 +10,10 @@ export const WorkSection=styled.div`
 export const TorkTitle=styled.h2`
 font-size: 60px; 
 margin-left:40%;
+@media (max-width: 970px){
+    margin: auto;
+    text-align: center;
+}
 
 `
     

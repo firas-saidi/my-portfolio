@@ -16,7 +16,12 @@ export const Information=styled.div `
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%)
+    transform: translate(-50%,-50%);
+
+    @media (max-width:970px) {
+    
+   width: 300px
+}
 `
    
 
@@ -30,13 +35,13 @@ export const Hometitle=styled.h2`
     
 @media (max-width:768px) {
     
-        font-size: 40px;
+        font-size: 60px;
         color: #fff;
     }
 
     @media (max-width:575px) {
     
-        font-size: 30px;
+        font-size: calc(max-width/5);
     }
 
 `
