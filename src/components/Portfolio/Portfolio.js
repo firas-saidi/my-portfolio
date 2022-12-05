@@ -1,7 +1,13 @@
 import React, { useEffect, useState } from 'react'
+import WithDep from '../WithDep'
+import NoDep from '../NoDep'
+
 
 import axios from 'axios'
 function Portfolio() {
+
+
+
 
 	const [port,setPort]=useState([])
 	useEffect(()=>{
@@ -11,10 +17,12 @@ function Portfolio() {
 	},[])
 
 	const all=port.map(one=>{
+	
+
 		return(
 			<div className="row" key={one.id} > 
-			<a className='mylink' href={one.link} target="_blank" rel="noopener noreferrer">
-				<img src={one.image} alt=""/>
+			<a className='mylink'  href={one.link} target="_blank" rel="noopener noreferrer">
+				<img  src={one.image} alt=""/>
 				<div className="main-row">
 					<div className="row-text">
 						<h6>{one.name}</h6>
@@ -24,7 +32,7 @@ function Portfolio() {
 					</div>
 				</div>
 				<h3 className='text-white'>{one.det}</h3>
-				<button className='btn'>Open App ! </button>
+				{one.link.length? <WithDep link={one.link}/>:<NoDep code={one.code}/>}
 				</a>
 			
 			</div>
