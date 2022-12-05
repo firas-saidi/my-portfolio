@@ -26,7 +26,7 @@
             "id":4,
             "image": "img/portfolio4.png",
             "name" : "Customize Notes App ",
-            "det":" Notes App  with customize color ",
+            "det":" Notes Customize color ",
             "link" : "https://firas-saidi.github.io/my-note-app"
 
         },
@@ -47,10 +47,19 @@
 
         },
         {
+            "id":9,
+            "image": "img/portfolio9.jpg",
+            "name" : "Redux Todo app",
+            "det":"My  crud with Redux ",
+            "link" : "",
+            "code" : "https://github.com/firas-saidi/my-redux-todo"
+
+        },
+        {
             "id":1,
             "image": "img/portfolio1.jpg",
             "name" : "My login app with mongodb",
-            "det":"Login app with modern design ",
+            "det":"Login  with modern design ",
             "link" : "https://firas-saidi.github.io/my-login-app/"
         },
         {
@@ -86,6 +95,7 @@
             "link" : "https://firas-saidi.github.io/crud-app/"
 
         }
+       
     ] ,
   
     "profile" : [
