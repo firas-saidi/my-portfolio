@@ -21,7 +21,7 @@ function Portfolio() {
 
 		return(
 			<div className="row" key={one.id} > 
-			<a className='mylink'  href={one.link} target="_blank" rel="noopener noreferrer">
+			<div className='mylink'  >
 				<img  src={one.image} alt=""/>
 				<div className="main-row">
 					<div className="row-text">
@@ -33,7 +33,7 @@ function Portfolio() {
 				</div>
 				<h3 className='text-white'>{one.det}</h3>
 				{one.link.length? <WithDep link={one.link}/>:<NoDep code={one.code}/>}
-				</a>
+				</div>
 			
 			</div>
 		)
